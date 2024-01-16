@@ -3,11 +3,10 @@ l = [52633, 8137, 1024, 999]
 def print_factor(x):
 # your code here
 	for i in range(x+1):
-	# your code here
-	if i == 0 :
-		continue
-	if x % i == 0 :
-		print(i)
+		if i == 0 :
+			continue
+		if x % i == 0 :
+			print(i)
 
 for t in l:
 	print_factor(t)
